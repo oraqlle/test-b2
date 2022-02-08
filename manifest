@@ -1,0 +1,12 @@
+: 1
+name: test-b2
+version: 0.1.0-a.0.z
+summary: # test-b2
+license: Apache-2.0 ; Apache License 2.0.
+description-file: README.md
+url: https://example.org/test-b2
+email: 41113853+oraqlle@users.noreply.github.com
+#build-error-email: 41113853+oraqlle@users.noreply.github.com
+depends: * build2 >= 0.14.0
+depends: * bpkg >= 0.14.0
+#depends: libhello ^1.0.0
